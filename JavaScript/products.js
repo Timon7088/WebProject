@@ -1,16 +1,78 @@
 'use strict'
 
 let products = [
+    {
+        title: "Nintendo Switch bunduru: 32GB Console Red and Blue",
+        image: "imgs/nintendo switch bunduru.jpg",
+        price: "₪1050",
+        original_price: "₪2450",
+        inCart : 0,
+    },
 
+    {
+        title: "PS5 Bundle: PS5 Disc Console + Controller and games",
+        image: "imgs/ps5 bunduru.jpg",
+        price: "₪2650",
+        original_price: "₪3980",
+        inCart : 0,
+    },
 
+    {
+        title: "Xbox series X bundle with: 2 Xbox X controllers",
+        image: "imgs/Xbox-Series-X-Ultimate-Accessories-and-System-Bundle.jpg",
+        price: "₪2360",
+        original_price: "₪3290",
+        inCart : 0,
+    },
+
+    {
+        title: "PlayStation 5 Brack friday bunduru!",
+        image: "imgs/PS5 black friday bunduru!!.png",
+        price: "₪2899",
+        original_price: "₪4350",
+        inCart : 0,
+    },
+
+    {
+        title: "Xbox series x with DC's best villain joker skin!",
+        image: "imgs/xbox skin joker.jpg",
+        price: "₪1560",
+        original_price: "",
+        inCart : 0,
+    },
+
+    {
+        title: "Xbox series x with Rengoku from demon slayer skin!",
+        image: "imgs/xbox demon slayer skin.jpg",
+        price: "₪1590",
+        original_price: "",
+        inCart : 0,
+    },
+
+    {
+        title: "Xbox series x with anime bundle skin!",
+        image: "imgs/xbox series x anime bundle.jpg",
+        price: "₪1630",
+        original_price: "",
+        inCart : 0,
+    },
+
+    {
+        title: "Xbox series x with deadpool skin!",
+        image: "imgs/xbox series x deadpool skin.jpg",
+        price: "₪1420",
+        original_price: "",
+        inCart : 0,
+    },
+    
     // <----------------------------------- game catalog ---------------------------------------->
+
     {
         title: "Monster Hunter: World",
         image: "imgs/catagory imgs/mhw.jpg",
         price: "₪130",
         original_price: "₪190",
         inCart : 0,
-        category: "games"
     },
     
     {
@@ -19,7 +81,6 @@ let products = [
         price: "₪120",
         original_price: "₪225",
         inCart : 0,
-        category: "games"
     },
     
     {
@@ -28,7 +89,6 @@ let products = [
         price: "₪40",
         original_price: "",
         inCart : 0,
-        category: "games"
     },
     
     {
@@ -37,7 +97,6 @@ let products = [
         price: "₪150",
         original_price: "₪225",
         inCart : 0,
-        category: "games"
     },
     
     {
@@ -46,7 +105,6 @@ let products = [
         price: "₪110",
         original_price: "₪180",
         inCart : 0,
-        category: "games"
     },
     
     {
@@ -55,7 +113,6 @@ let products = [
         price: "₪190",
         original_price: "",
         inCart : 0,
-        category: "games"
     },
     
     {
@@ -64,7 +121,6 @@ let products = [
         price: "₪160",
         original_price: "",
         inCart : 0,
-        category: "games"
     },
     
     {
@@ -73,7 +129,6 @@ let products = [
         price: "₪160",
         original_price: "",
         inCart : 0,
-        category: "games"
     },
     
     {
@@ -82,7 +137,6 @@ let products = [
         price: "₪100",
         original_price: "₪140",
         inCart : 0,
-        category: "games"
     },
     
     {
@@ -91,7 +145,6 @@ let products = [
         price: "₪80",
         original_price: "",
         inCart : 0,
-        category: "games"
     },
     
     {
@@ -100,7 +153,6 @@ let products = [
         price: "₪20",
         original_price: "₪80",
         inCart : 0,
-        category: "games"
     },
     
     {
@@ -109,7 +161,6 @@ let products = [
         price: "₪100",
         original_price: "₪170",
         inCart : 0,
-        category: "games"
     },
     
     {
@@ -118,7 +169,6 @@ let products = [
         price: "₪140",
         original_price: "₪190",
         inCart : 0,
-        category: "games"
     },
     
     {
@@ -127,7 +177,6 @@ let products = [
         price: "₪120",
         original_price: "₪160",
         inCart : 0,
-        category: "games"
     },
     
     {
@@ -136,7 +185,6 @@ let products = [
         price: "₪150",
         original_price: "",
         inCart : 0,
-        category: "games"
     },
     
     {
@@ -145,7 +193,6 @@ let products = [
         price: "₪180",
         original_price: "₪220",
         inCart : 0,
-        category: "games"
     },
     
     {
@@ -154,7 +201,6 @@ let products = [
         price: "₪80",
         original_price: "",
         inCart : 0,
-        category: "games"
     },
     
     {
@@ -163,7 +209,6 @@ let products = [
         price: "₪225",
         original_price: "",
         inCart : 0,
-        category: "games"
     },
     
     // <--------------------------------------- console catalog ------------------------------------------>
@@ -174,7 +219,6 @@ let products = [
         price: "₪3000",
         original_price: "₪4600",
         inCart : 0,
-        category: "console"
     },
     
     {
@@ -183,7 +227,6 @@ let products = [
         price: "₪60",
         original_price: "",
         inCart : 0,
-        category: "console"
     },
     
     {
@@ -192,7 +235,6 @@ let products = [
         price: "₪2500",
         original_price: "₪5000",
         inCart : 0,
-        category: "console"
     },
     
     {
@@ -201,7 +243,6 @@ let products = [
         price: "₪360",
         original_price: "₪720",
         inCart : 0,
-        category: "console"
     },
     
     {
@@ -210,7 +251,6 @@ let products = [
         price: "₪5000",
         original_price: "₪8600",
         inCart : 0,
-        category: "console"
     },
     
     {
@@ -219,7 +259,6 @@ let products = [
         price: "₪2000",
         original_price: "",
         inCart : 0,
-        category: "console"
     },
     
     {
@@ -228,7 +267,6 @@ let products = [
         price: "₪1800",
         original_price: "",
         inCart : 0,
-        category: "console"
     },
     
     {
@@ -237,7 +275,6 @@ let products = [
         price: "₪1200",
         original_price: "",
         inCart : 0,
-        category: "console"
     },
     
     {
@@ -246,7 +283,6 @@ let products = [
         price: "₪2800",
         original_price: "₪3200",
         inCart : 0,
-        category: "console"
     },
     
     {
@@ -255,7 +291,6 @@ let products = [
         price: "₪3500",
         original_price: "",
         inCart : 0,
-        category: "console"
     },
     
     {
@@ -264,7 +299,6 @@ let products = [
         price: "₪400",
         original_price: "₪1200",
         inCart : 0,
-        category: "console"
     },
     
     {
@@ -273,7 +307,6 @@ let products = [
         price: "₪280",
         original_price: "₪360",
         inCart : 0,
-        category: "console"
     },
     
     {
@@ -282,7 +315,6 @@ let products = [
         price: "₪2000",
         original_price: "₪3000",
         inCart : 0,
-        category: "console"
     },
     
     {
@@ -291,7 +323,6 @@ let products = [
         price: "₪345",
         original_price: "₪540",
         inCart : 0,
-        category: "console"
     },
     
     {
@@ -300,7 +331,6 @@ let products = [
         price: "₪150",
         original_price: "",
         inCart : 0,
-        category: "console"
     },
     
     {
@@ -309,7 +339,6 @@ let products = [
         price: "₪3000",
         original_price: "₪5000",
         inCart : 0,
-        category: "console"
     },
     
     {
@@ -318,7 +347,6 @@ let products = [
         price: "₪2200",
         original_price: "",
         inCart : 0,
-        category: "console"
     },
     
     {
@@ -327,7 +355,6 @@ let products = [
         price: "₪2000",
         original_price: "",
         inCart : 0,
-        category: "console"
     },
     
     // <---------------------------------- accessories catalog ------------------------------------->
@@ -338,7 +365,6 @@ let products = [
         price: "₪1100",
         original_price: "",
         inCart : 0,
-        category: "accessories"
     },
     
     {
@@ -347,7 +373,6 @@ let products = [
         price: "₪180",
         original_price: "₪240",
         inCart : 0,
-        category: "accessories"
     },
     
     {
@@ -356,7 +381,6 @@ let products = [
         price: "₪110",
         original_price: "",
         inCart : 0,
-        category: "accessories"
     },
     
     {
@@ -365,7 +389,6 @@ let products = [
         price: "₪200",
         original_price: "",
         inCart : 0,
-        category: "accessories"
     },
     
     {
@@ -374,7 +397,6 @@ let products = [
         price: "₪1960",
         original_price: "",
         inCart : 0,
-        category: "accessories"
     },
     
     {
@@ -383,7 +405,6 @@ let products = [
         price: "₪40",
         original_price: "₪100",
         inCart : 0,
-        category: "accessories"
     },
     
     {
@@ -392,7 +413,6 @@ let products = [
         price: "₪280",
         original_price: "₪420",
         inCart : 0,
-        category: "accessories"
     },
     
     {
@@ -401,7 +421,6 @@ let products = [
         price: "₪400",
         original_price: "",
         inCart : 0,
-        category: "accessories"
     },
     
     {
@@ -410,7 +429,6 @@ let products = [
         price: "₪1400",
         original_price: "",
         inCart : 0,
-        category: "accessories"
     },
     
     {
@@ -419,7 +437,6 @@ let products = [
         price: "₪220",
         original_price: "₪260",
         inCart : 0,
-        category: "accessories"
     },
     
     {
@@ -428,7 +445,6 @@ let products = [
         price: "₪680",
         original_price: "₪800",
         inCart : 0,
-        category: "accessories"
     },
     
     {
@@ -437,32 +453,28 @@ let products = [
         price: "₪1050",
         original_price: "₪1400",
         inCart : 0,
-        category: "accessories"
     },
 ]
 
 
-products.forEach(function(item){
+// products.forEach(function(item){
 
-    let {title, price, original_price, image, category} = item;
+//     let {title, price, original_price, image} = item;
 
-    let html = `<div class="prod">
-    <div data-category = "";>
-    <img class="image" src="${image}">
-    <br><br>
-    <p class = "product_title">${title}</p>
-        <div class="prices">
-            <span class="price">${price}</span>
-            <span class="original_price">${original_price}</span>
-        </div>
-        <div class="category_item"><h4> ${category} </h4> </div>
-        <div class="btn_container">
-        <button class="buy_now"> Buy Now </button>
-        <button class="add_to_cart"> add to cart </button>
-    </div>
-    </div>
-    </div>`
+//     let html = `<div class="prod">
+//     <img class="image" src="${image}">
+//     <br><br>
+//     <p class = "product_title">${title}</p>
+//         <div class="prices">
+//             <span class="price">${price}</span>
+//             <span class="original_price">${original_price}</span>
+//         </div>
+//         <div class="btn_container">
+//         <button class="buy_now"> Buy Now </button>
+//         <button class="add_to_cart"> add to cart </button>
+//     </div>
+//     </div>`
 
 
-    document.querySelector(".product_list").innerHTML += html;
-});
+//     document.querySelector(".tabs").innerHTML += html;
+// });

@@ -1,0 +1,46 @@
+[
+    {
+        "title": "Monster Hunter: World",
+        "image": "../../imgs/catagory imgs/mhw.jpg",
+        "price": "₪130",
+        "original_price": "₪190"
+    },
+    
+    {
+        "title": "Super Smash Brothers. Ultimate",
+        "image": "../../imgs/catagory imgs/ssbu.jpg",
+        "price": "₪120",
+        "original_price": "₪225"
+    },
+    
+    {
+        "title": "Grand Theft Auto: San Andreas",
+        "image": "../../imgs/catagory imgs/gta.jpg",
+        "price": "₪40",
+        "original_price": ""
+    },
+    
+    {
+        "title": "God Of War",
+        "image": "../../imgs/catagory imgs/gow.jpg",
+        "price": "₪150",
+        "original_price": "₪225"
+    },
+    
+    {
+        "title": "Forza Horizon",
+        "image": "../../imgs/catagory imgs/forza.jpg",
+        "price": "₪110",
+        "original_price": "₪180"
+    },
+    
+    {
+        "title": "Ratchet & Clank: Rift Apart",
+        "image": "../../imgs/catagory imgs/Rift Apart.webp",
+        "price": "₪190",
+        "original_price": ""
+
+    }
+]
+
+

@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Xbox series X & S",
+        "image": "../../imgs/catagory imgs/seriesX.jpg",
+        "price": "₪3000",
+        "original_price": "₪4600"
+    },
+    
+    {
+        "title": "Gameboy Advanced SP Blue Edition",
+        "image": "../../imgs/catagory imgs/gba BE.jpg",
+        "price": "₪60",
+        "original_price": ""
+    },
+    
+    {
+        "title": "Playstation 5",
+        "image": "../../imgs/catagory imgs/PS5.jpg",
+        "price": "₪2500",
+        "original_price": "₪5000"
+    },
+    
+    {
+        "title": "Nintendo Wii",
+        "image": "../../imgs/catagory imgs/Wii.jfif",
+        "price": "₪360",
+        "original_price": "₪720"
+    },
+    
+    {
+        "title": "Playstation 5 Special pack",
+        "image": "../../imgs/catagory imgs/PS5 special.jpg",
+        "price": "₪5000",
+        "original_price": "₪8600"
+    },
+    
+    {
+        "title": "Playstation 4",
+        "image": "../../imgs/catagory imgs/PS4.png",
+        "price": "₪2000",
+        "original_price": ""
+    },
+
+    {
+        "title": "PlayStation 5 Brack friday bunduru!",
+        "image": "../../imgs/PS5 black friday bunduru!!.png",
+        "price": "₪2899",
+        "original_price": "₪4350"
+    }
+]

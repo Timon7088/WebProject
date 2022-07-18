@@ -540,11 +540,6 @@ header
         margin: 30px 20px 20px;
         background-color: $backgroundSale;   
 
-        .category_item
-        {
-            display:none;
-        }
-
         .price
         {
             font-size: $priceSize;
@@ -567,7 +562,7 @@ header
             font-size:16px;
             font-weight: 400;
             color: $textLight;
-            margin: 10px auto 0px;
+            margin: 23px auto 15px;
             height:55px;     
         }
 
