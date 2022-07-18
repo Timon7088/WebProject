@@ -27,7 +27,7 @@ function loadGame() {
                         <br><br>
                         <p class = "product_title">${product.title}</p>
                         <div class="prices">
-                            <span class="price">${product.price}</span>
+                            <span class="price">₪${product.price}</span>
                             <span class="original_price">${product.original_price}</span>
                         </div>
                         <div class="btn_container">

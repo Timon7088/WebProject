@@ -326,6 +326,8 @@ main .main .gridContainer .tabs a .prod .prices .original_price {
   text-decoration: line-through;
   color: #727773;
   font-size: 17px;
+  position: relative;
+  top: 3px;
 }
 main .main .gridContainer .tabs a .prod .btn_container {
   position: relative;
