@@ -137,7 +137,6 @@ header {
   left: 0;
   right: 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
-  border-radius: 8%;
   display: none;
 }
 .header .iconsContainer .cart .cart_container::-webkit-scrollbar {
@@ -192,6 +191,10 @@ header {
   justify-content: flex-start;
   background: rgb(80, 204, 100);
   color: black;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
 }
 .header .iconsContainer .cart .cart_container .cart_total h3 {
   margin-right: 0.2rem;

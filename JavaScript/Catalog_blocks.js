@@ -31,7 +31,6 @@ function loadGame() {
                             <span class="original_price">${product.original_price}</span>
                         </div>
                         <div class="btn_container">
-                            <button class="buy_now"> Buy Now </button>
                             <button class="add_to_cart"> add to cart </button>
                         </div>
                     </div>
