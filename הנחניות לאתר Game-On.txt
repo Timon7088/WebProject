@@ -1,0 +1,28 @@
+הגשת עבודה: רן ויובל.
+
+
+
+
+הנחיות לאתר:
+1. דפים לחיצים מנתבים:
+  - Header - Home --> homepage
+                - About --> About us
+                - Location --> Location page
+                - Register / login --> Login --> Register
+                - Contact us --> Contact page
+
+ - Main (Homepage): 
+             - Our catagories --> Catalog pages (Gaming platforms)
+             - Our catagories --> Catalog pages (Gaming accessories)
+             - Our catagories --> Catalog pages (Games & bundles)
+
+ - Footer - Site map:
+                - About --> About us
+                - Location --> Location page
+                - Contact us --> Contact page
+                - Client registration --> Login --> Register
+
+2. כל הרשומות שלנו (forms) נשלחות לw3 school ששלחת בשיעורי בית.
+
+
+
