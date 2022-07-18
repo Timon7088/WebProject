@@ -316,7 +316,7 @@ main .main .gridContainer .tabs a .prod {
 }
 main .main .gridContainer .tabs a .prod .prices {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 main .main .gridContainer .tabs a .prod .prices .price {
   font-size: 20px;
@@ -327,6 +327,7 @@ main .main .gridContainer .tabs a .prod .prices .original_price {
   font-size: 17px;
   position: relative;
   top: 3px;
+  left: 10px;
 }
 main .main .gridContainer .tabs a .prod .btn_container {
   position: relative;

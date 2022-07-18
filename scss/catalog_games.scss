@@ -457,7 +457,7 @@ main
                         .prices
                         {
                             display: flex;
-                            justify-content: space-evenly;
+                            justify-content: center;
 
                             .price
                             {
@@ -471,6 +471,7 @@ main
                                 font-size: 17px;
                                 position:relative;
                                 top:3px;
+                                left:10px;
                             }
                         }
                         .btn_container{
