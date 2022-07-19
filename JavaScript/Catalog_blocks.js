@@ -21,7 +21,7 @@ function loadGame() {
         let html = '';
         data.forEach(product => {
             html += `
-                <a href="#">
+                <a href="${product.key}">
                     <div class="prod">
                         <img class="image" src="${product.image}">
                         <br><br>
@@ -48,7 +48,7 @@ function loadConsole() {
         let html = '';
         data.forEach(product => {
             html += `
-                <a href="#">
+                <a href="${product.key}">
                     <div class="prod">
                         <img class="image" src="${product.image}">
                         <br><br>
@@ -75,7 +75,7 @@ function loadAccessory() {
         let html = '';
         data.forEach(product => {
             html += `
-                <a href="#">
+                <a href="${product.key}">
                     <div class="prod">
                         <img class="image" src="${product.image}">
                         <br><br>

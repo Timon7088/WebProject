@@ -1,5 +1,7 @@
 [
     {
+        "tag" : "mhw",
+        "key" : "../product pages/MHW.html",
         "title": "Monster Hunter: World",
         "image": "../../imgs/catagory imgs/mhw.jpg",
         "price": 130,
@@ -7,6 +9,8 @@
     },
     
     {
+        "tag" : "ssbu",
+        "key" : "../product pages/SuperSmash.html",
         "title": "Super Smash Brothers. Ultimate",
         "image": "../../imgs/catagory imgs/ssbu.jpg",
         "price": 120,
@@ -14,6 +18,8 @@
     },
     
     {
+        "tag" : "gta",
+        "key" : "../product pages/GTA-SA.html",
         "title": "Grand Theft Auto: San Andreas",
         "image": "../../imgs/catagory imgs/gta.jpg",
         "price": 40,
@@ -21,6 +27,8 @@
     },
     
     {
+        "tag" : "gow",
+        "key" : "../product pages/GodOfWar.html",
         "title": "God Of War",
         "image": "../../imgs/catagory imgs/gow.jpg",
         "price": 150,
@@ -28,6 +36,8 @@
     },
     
     {
+        "tag" : "forza",
+        "key" : "../product pages/Forza.html",
         "title": "Forza Horizon",
         "image": "../../imgs/catagory imgs/forza.jpg",
         "price": 110,
@@ -35,11 +45,12 @@
     },
     
     {
+        "tag" : "riftApart",
+        "key" : "../product pages/Rift-Apart.html",
         "title": "Ratchet & Clank: Rift Apart",
         "image": "../../imgs/catagory imgs/Rift Apart.webp",
         "price": 190,
         "original_price": ""
-
     }
 ]
 
