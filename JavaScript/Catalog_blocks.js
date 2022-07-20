@@ -9,91 +9,88 @@ eventListeners();
 function eventListeners() {
     window.addEventListener('DOMContentLoaded', () => {
         loadGame();
-        loadConsole()
-        loadAccessory()
+        // loadConsole()
+        // loadAccessory()
     })
 }
 
 // Games catalog block
 function loadGame() {
-    fetch('JavaScript/Games_storage.json')
-    .then(response => response.json())
-    .then(data => {
-        let html = '';
-        data.forEach(product => {
-            html += `
-                <a class= "card" href="${product.key}">
-                    <div class="prod">
-                        <img class="image" src="${product.image}">
-                        <br><br>
-                        <p class = "product_title">${product.title}</p>
-                        <div class="prices">
-                            <span class="price">₪${product.price}</span>
-                            <span class="original_price">${product.original_price}</span>
-                        </div>
-                        <div class="btn_container">
-                            <button class="add_to_cart"> add to cart </button>
-                        </div>
+        games.innerHTML = '';
+        Object.values(cartItems).map(products => {
+            games.innerHTML = `
+            <a class= "card" href="${product.key}">
+                <div class="prod">
+                    <img class="image" src="${product.image}">
+                    <br><br>
+                    <p class = "product_title">${product.title}</p>
+                    <div class="prices">
+                        <span class="price">₪${product.price}</span>
+                        <span class="original_price">₪${product.original_price}</span>
                     </div>
-                </a>
-            `
-        })
-        games.innerHTML = html;
+                    <div class="btn_container">
+                        <button class="add_to_cart"> add to cart </button>
+                    </div>
+                </div>
+            </a>
+        `
     })
+    //games.innerHTML = html;
+    
 }
 
 // Consoles catalog block
-function loadConsole() {
-    fetch('JavaScript/Consoles_storage.json')
-    .then(response => response.json())
-    .then(data => {
-        let html = '';
-        data.forEach(product => {
-            html += `
-                <a class= "card" href="${product.key}">
-                    <div class="prod">
-                        <img class="image" src="${product.image}">
-                        <br><br>
-                        <p class = "product_title">${product.title}</p>
-                        <div class="prices">
-                            <span class="price">₪${product.price}</span>
-                            <span class="original_price">${product.original_price}</span>
-                        </div>
-                        <div class="btn_container">
-                            <button class="add_to_cart"> add to cart </button>
-                        </div>
-                    </div>
-                </a>
-            `
-        })
-        consoles.innerHTML = html;
-    })
-}
+// function loadConsole() {
+//     fetch('JavaScript/Consoles_storage.json')
+//     .then(response => response.json())
+//     .then(data => {
+//         let html = '';
+//         data.forEach(product => {
+//             html += `
+//                 <a class= "card" href="${product.key}">
+//                     <div class="prod">
+//                         <img class="image" src="${product.image}">
+//                         <br><br>
+//                         <p class = "product_title">${product.title}</p>
+//                         <div class="prices">
+//                             <span class="price">₪${product.price}</span>
+//                             <span class="original_price">${product.original_price}</span>
+//                         </div>
+//                         <div class="btn_container">
+//                             <button class="add_to_cart"> add to cart </button>
+//                         </div>
+//                     </div>
+//                 </a>
+//             `
+//         })
+//         consoles.innerHTML = html;
+//     })
+// }
 
 // Accessories catalog block
-function loadAccessory() {
-    fetch('JavaScript/Accessories_storage.json')
-    .then(response => response.json())
-    .then(data => {
-        let html = '';
-        data.forEach(product => {
-            html += `
-                <a class= "card" href="${product.key}">
-                    <div class="prod">
-                        <img class="image" src="${product.image}">
-                        <br><br>
-                        <p class = "product_title">${product.title}</p>
-                        <div class="prices">
-                            <span class="price" >₪${product.price}</span>
-                            <span class="original_price">${product.original_price}</span>
-                        </div>
-                        <div class="btn_container">
-                            <button class="add_to_cart"> add to cart </button>
-                        </div>
-                    </div>
-                </a>
-            `
-        })
-        accessories.innerHTML = html;
-    })
-}
+// function loadAccessory() {
+//     fetch('JavaScript/Accessories_storage.json')
+//     .then(response => response.json())
+//     .then(data => {
+//         let html = '';
+//         data.forEach(product => {
+//             html += `
+//                 <a class= "card" href="${product.key}">
+//                     <div class="prod">
+//                         <img class="image" src="${product.image}">
+//                         <br><br>
+//                         <p class = "product_title">${product.title}</p>
+//                         <div class="prices">
+//                             <span class="price" >₪${product.price}</span>
+//                             <span class="original_price">${product.original_price}</span>
+//                         </div>
+//                         <div class="btn_container">
+//                             <button class="add_to_cart"> add to cart </button>
+//                         </div>
+//                     </div>
+//                 </a>
+//             `
+//         })
+//         accessories.innerHTML = html;
+//     })
+// }
