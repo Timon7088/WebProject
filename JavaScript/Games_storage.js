@@ -5,7 +5,7 @@ let products = [
         title: "Monster Hunter: World",
         image: "../../imgs/catagory imgs/mhw.jpg",
         price: 130,
-        original_price: 190
+        original_price: 190,
     },
     
     {
@@ -14,7 +14,7 @@ let products = [
         title: "Super Smash Brothers. Ultimate",
         image: "../../imgs/catagory imgs/ssbu.jpg",
         price: 120,
-        original_price: 225
+        original_price: 225,
     },
     
     {
@@ -23,7 +23,7 @@ let products = [
         title: "Grand Theft Auto: San Andreas",
         image: "../../imgs/catagory imgs/gta.jpg",
         price: 40,
-        original_price: ""
+        original_price: "",
     },
     
     {
@@ -32,7 +32,7 @@ let products = [
         title: "God Of War",
         image: "../../imgs/catagory imgs/gow.jpg",
         price: 150,
-        original_price: 225
+        original_price: 225,
     },
     
     {
@@ -41,7 +41,7 @@ let products = [
         title: "Forza Horizon",
         image: "../../imgs/catagory imgs/forza.jpg",
         price: 110,
-        original_price: 180
+        original_price: 180,
     },
     
     {
