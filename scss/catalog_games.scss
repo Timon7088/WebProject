@@ -463,7 +463,12 @@ main
                 padding-bottom: 60px;
                 text-align: center;
                 justify-content: center;
-        
+                
+                .hide
+                {
+                    display: none;
+                }
+
                 & a
                 {
                     position: relative;

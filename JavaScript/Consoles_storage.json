@@ -1,6 +1,6 @@
 [
     {
-        "tag" : "seriesXS",
+        "id" : "seriesXS",
         "key" : "../product pages/Xbox-Series.html",
         "title": "Xbox series X & S",
         "image": "../../imgs/catagory imgs/seriesX.jpg",
@@ -9,7 +9,7 @@
     },
     
     {
-        "tag" : "GBA",
+        "id" : "GBA",
         "key" : "../product pages/GBA-SP-BE.html",
         "title": "Gameboy Advanced SP Blue Edition",
         "image": "../../imgs/catagory imgs/gba BE.jpg",
@@ -18,7 +18,7 @@
     },
     
     {
-        "tag" : "ps5",
+        "id" : "ps5",
         "key" : "../product pages/Ps5.html",
         "title": "Playstation 5",
         "image": "../../imgs/catagory imgs/PS5.jpg",
@@ -27,7 +27,7 @@
     },
     
     {
-        "tag" : "wii",
+        "id" : "wii",
         "key" : "../product pages/Wii.html",
         "title": "Nintendo Wii",
         "image": "../../imgs/catagory imgs/Wii.jfif",
@@ -36,7 +36,7 @@
     },
     
     {
-        "tag" : "psSpecial",
+        "id" : "psSpecial",
         "key" : "../product pages/Ps5SP.html",
         "title": "Playstation 5 Special pack",
         "image": "../../imgs/catagory imgs/PS5 special.jpg",
@@ -45,7 +45,7 @@
     },
     
     {
-        "tag" : "ps4",
+        "id" : "ps4",
         "key" : "../product pages/Ps4.html",
         "title": "Playstation 4",
         "image": "../../imgs/catagory imgs/PS4.png",

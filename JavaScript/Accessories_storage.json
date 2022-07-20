@@ -1,6 +1,6 @@
 [
     {
-        "tag" : "MSI",
+        "id" : "MSI",
         "key" : "../product pages/MSI-Chair.html",
         "title": "MSI MAG CH130",
         "image": "../../imgs/catagory imgs/gamingchair.jpg",
@@ -9,7 +9,7 @@
     },
     
     {
-        "tag" : "dualsense",
+        "id" : "dualsense",
         "key" : "../product pages/Ps5-Controller.html",
         "title": "Sony PS5 DualSense Controller",
         "image": "../../imgs/catagory imgs/PS5ctrlr.jfif",
@@ -18,7 +18,7 @@
     },
     
     {
-        "tag" : "chargerStand",
+        "id" : "chargerStand",
         "key" : "../product pages/Headphone-stand.html",
         "title": "Headphone Stand with USB charger",
         "image": "../../imgs/catagory imgs/headsetDockCharge.jpg",
@@ -27,7 +27,7 @@
     },
     
     {
-        "tag" : "proCntrlr",
+        "id" : "proCntrlr",
         "key" : "../product pages/Pro-cntrlr.html",
         "title": "Nintendo Switch Pro Controller",
         "image": "../../imgs/catagory imgs/proctrlr.jpg",
@@ -36,7 +36,7 @@
     },
     
     {
-        "tag" : "oculus",
+        "id" : "oculus",
         "key" : "../product pages/Oculus.html",
         "title": "Oculus rift S Headset",
         "image": "../../imgs/vrset.webp",
@@ -45,7 +45,7 @@
     },
     
     {
-        "tag" : "LEDpad",
+        "id" : "LEDpad",
         "key" : "../product pages/MousePad.html",
         "title": "LED Lighting Gaming Mouse Pad",
         "image": "../../imgs/catagory imgs/gamePad.jpg",
