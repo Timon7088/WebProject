@@ -7,8 +7,9 @@ const checkoutTemplate = `
   <td><image class="checkoutImg" src="[image]"></image></td>
   <td class="name">[productName]</td>
   <td>1</td>
-  <td>[price]</td>
-  <td><img class="" src="[key]"></td>
+  <td>₪[price]</td>
+  <td><button type="button" data-key="[key]" class="cart_item_remove"><i class="fa-solid fa-trash"></i>
+  </button></td>
 </tr>
 `;
 
@@ -22,6 +23,19 @@ function loadCartFromStorage() {
     cartItems = JSON.parse(items);
   }
   UI_updateCheckout();
+}
+
+function UI_updateCartItems() {
+  const cartHTML = cartItems.filter((item) => item.inCart).map((item) => GenerateCartItem(item));
+  const cartList = document.querySelector(".cart_item");
+  cartList.innerHTML = cartHTML;
+
+  const removeButtons = document.querySelectorAll(".cart_item_remove");
+  for (const button of removeButtons) {
+    button.addEventListener("click", function (event) {
+      removeFromCart(this.dataset.key);
+    });
+  }
 }
 
 function UI_updateCheckout() {

@@ -39,7 +39,6 @@ function UI_updateCartItems() {
   const cartHTML = homeItems.filter((item) => item.inCart).map((item) => GenerateCartItem(item));
   const cartList = document.querySelector(".cart_list");
   cartList.innerHTML = cartHTML;
-
 }
 
 function UI_updateCartTotal() {
