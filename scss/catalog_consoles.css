@@ -319,27 +319,25 @@ main .main .gridContainer .tabs {
   text-align: center;
   justify-content: center;
 }
-main .main .gridContainer .tabs a {
+main .main .gridContainer .tabs .prod {
   position: relative;
   border: 2px solid black;
   border-radius: 10px;
   padding-top: 20px;
   text-decoration: unset;
   min-height: 435px;
-}
-main .main .gridContainer .tabs a .prod {
   color: black;
   font-weight: bolder;
 }
-main .main .gridContainer .tabs a .prod .prices {
+main .main .gridContainer .tabs .prod .prices {
   display: flex;
   justify-content: center;
   height: 55px;
 }
-main .main .gridContainer .tabs a .prod .prices .price {
+main .main .gridContainer .tabs .prod .prices .price {
   font-size: 20px;
 }
-main .main .gridContainer .tabs a .prod .prices .original_price {
+main .main .gridContainer .tabs .prod .prices .original_price {
   text-decoration: line-through;
   color: #727773;
   font-size: 17px;
@@ -347,30 +345,31 @@ main .main .gridContainer .tabs a .prod .prices .original_price {
   top: 3px;
   left: 10px;
 }
-main .main .gridContainer .tabs a .prod .btn_container {
+main .main .gridContainer .tabs .prod .btn_container {
   position: relative;
   bottom: 15px;
 }
-main .main .gridContainer .tabs a .prod .btn_container button {
+main .main .gridContainer .tabs .prod .btn_container button {
   width: 100px;
   height: 33px;
   font-size: 16px;
   font-weight: 700;
   border-radius: 25px;
+  cursor: pointer;
 }
-main .main .gridContainer .tabs a .prod .btn_container .buy_now {
+main .main .gridContainer .tabs .prod .btn_container .buy_now {
   background: rgb(80, 204, 100);
   color: black;
 }
-main .main .gridContainer .tabs a .prod .btn_container .buy_now:hover {
+main .main .gridContainer .tabs .prod .btn_container .buy_now:hover {
   background: black;
   color: #f0ffff;
 }
-main .main .gridContainer .tabs a .prod .btn_container .add_to_cart {
+main .main .gridContainer .tabs .prod .btn_container .add_to_cart {
   background: #fff;
   color: black;
 }
-main .main .gridContainer .tabs a .prod .btn_container .add_to_cart:hover {
+main .main .gridContainer .tabs .prod .btn_container .add_to_cart:hover {
   background: black;
   color: #f0ffff;
 }

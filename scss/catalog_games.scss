@@ -469,19 +469,23 @@ main
                     display: none;
                 }
 
-                & a
+
+                    
+                .prod
                 {
-                    position: relative;
-                    border: 2px solid $textDark;
-                    border-radius: 10px;
-                    padding-top: 20px;
-                    text-decoration: unset;
-                    min-height:455px;
-        
-                    .prod
-                    {
+                        position: relative;
+                        border: 2px solid $textDark;
+                        border-radius: 10px;
+                        padding-top: 20px;
+                        text-decoration: unset;
+                        min-height:455px;
                         color: $textDark;
                         font-weight: bolder;
+
+                        .image
+                        {
+                            cursor:pointer;
+                        }
         
                         .prices
                         {
@@ -502,56 +506,59 @@ main
                                 top:3px;
                                 left:10px;
                             }
-                        }
-                        .btn_container{
-
-                            position:relative;
-                            margin:15px auto 0px;
-                
-                            button
-                            {
-                
-                                width:100px;
-                                height:33px;
-                                font-size:16px;
-                                font-weight:700;
-                                border-radius:25px;   
-                            }
-                
-                            .buy_now
-                            {              
-                                background: $mainColor;
-                                color: $textDark;
-                
-                                &:hover
-                                {
-                                    background: $textDark;
-                                    color:$textLight;
-                                }
-                            }
-                
-                            .add_to_cart
-                            {
-                                background:$backgroudWhite;
-                                color: $textDark;
-                
-                                &:hover
-                                {
-                                    background: $textDark;
-                                    color: $textLight;
-                                }
-                            }
-                
+                            
                         }
                     }
+                    .btn_container
+                    {
+    
+                        position:relative;
+                        margin:15px auto 0px;
+            
+                        button
+                        {
+            
+                            width:100px;
+                            height:33px;
+                            font-size:16px;
+                            font-weight:700;
+                            border-radius:25px; 
+                            cursor:pointer;  
+                            
+                        }
+            
+                        .buy_now
+                        {              
+                            background: $mainColor;
+                            color: $textDark;
+            
+                            &:hover
+                            {
+                                background: $textDark;
+                                color:$textLight;
+                            }
+                        }
+            
+                        .add_to_cart
+                        {
+                            background:$backgroudWhite;
+                            color: $textDark;
+            
+                            &:hover
+                            {
+                                background: $textDark;
+                                color: $textLight;
+                            }
+                        }
+            
+                    }
+                    
+                    img
+                    {
+                        width: 180px;
+                        height: 255px;
+                    }
                 }
-        
-                img
-                {
-                    width: 180px;
-                    height: 255px;
-                }
-            }
         }
     }
 }

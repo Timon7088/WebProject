@@ -465,17 +465,16 @@ main
                 text-align: center;
                 justify-content: center;
         
-                & a
-                {
-                    position: relative;
-                    border: 2px solid $textDark;
-                    border-radius: 10px;
-                    padding-top: 20px;
-                    text-decoration: unset;
-                    min-height:435px;
-        
+
+                    
                     .prod
                     {
+                        position: relative;
+                        border: 2px solid $textDark;
+                        border-radius: 10px;
+                        padding-top: 20px;
+                        text-decoration: unset;
+                        min-height:435px;
                         color: $textDark;
                         font-weight: bolder;
         
@@ -514,6 +513,7 @@ main
                                 font-size:16px;
                                 font-weight:700;
                                 border-radius:25px;
+                                cursor:pointer;
                             }
                 
                             .buy_now
@@ -542,7 +542,7 @@ main
                 
                         }
                     }
-                }
+                
         
                 img
                 {
