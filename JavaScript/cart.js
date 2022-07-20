@@ -20,10 +20,6 @@ function GenerateCartItem(item) {
   return cartTemplate.replace("[image]", item.image).replace("[title]", item.title).replace("[price]", item.price).replace("[key]", item.key);
 }
 
-function toNumber(value) {
-  return parseInt(value.slice(1));
-}
-
 function loadCartFromStorage() {
   const items = localStorage.getItem("cartProducts");
   if (items) {
@@ -39,7 +35,7 @@ function UI_updateQuantity() {
 
 function UI_updateCartTotal() {
   const totalPrice = document.querySelector("#cart_total_value");
-  totalPrice.innerHTML = cartItems.filter((item) => item.inCart).reduce((sum, item) => (sum += toNumber(item.price)), 0);
+  totalPrice.innerHTML = cartItems.filter((item) => item.inCart).reduce((sum, item) => (sum += item.price), 0);
 }
 
 function UI_updateCartItems() {
