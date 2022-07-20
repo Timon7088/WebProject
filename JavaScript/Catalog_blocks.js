@@ -14,6 +14,7 @@ function eventListeners() {
     })
 }
 
+// Games catalog block
 function loadGame() {
     fetch('JavaScript/Games_storage.json')
     .then(response => response.json())
@@ -21,7 +22,7 @@ function loadGame() {
         let html = '';
         data.forEach(product => {
             html += `
-                <a href="#">
+                <a class= "card" href="${product.key}">
                     <div class="prod">
                         <img class="image" src="${product.image}">
                         <br><br>
@@ -41,6 +42,7 @@ function loadGame() {
     })
 }
 
+// Consoles catalog block
 function loadConsole() {
     fetch('JavaScript/Consoles_storage.json')
     .then(response => response.json())
@@ -48,7 +50,7 @@ function loadConsole() {
         let html = '';
         data.forEach(product => {
             html += `
-                <a href="#">
+                <a class= "card" href="${product.key}">
                     <div class="prod">
                         <img class="image" src="${product.image}">
                         <br><br>
@@ -68,6 +70,7 @@ function loadConsole() {
     })
 }
 
+// Accessories catalog block
 function loadAccessory() {
     fetch('JavaScript/Accessories_storage.json')
     .then(response => response.json())
@@ -75,7 +78,7 @@ function loadAccessory() {
         let html = '';
         data.forEach(product => {
             html += `
-                <a href="#">
+                <a class= "card" href="${product.key}">
                     <div class="prod">
                         <img class="image" src="${product.image}">
                         <br><br>

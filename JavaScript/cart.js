@@ -13,7 +13,9 @@ const cartTemplate = `
     <button type="button" data-key="[key]" class="cart_item_remove"><i class="fa-solid fa-trash"></i>
     </button>
 </div>
+<br><br>
 `;
+
 function GenerateCartItem(item) {
   return cartTemplate.replace("[image]", item.image).replace("[title]", item.title).replace("[price]", item.price).replace("[key]", item.key);
 }

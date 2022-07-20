@@ -172,10 +172,10 @@ header
                 position:absolute;
                 overflow-y: scroll;
                 background: #fff;
-                width:100%;
+                width:340px;
                 height:600px;
                 top:100%;
-                left: 0;
+                left: -117px;
                 right: 0;
                 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.60);
                 display:none;
@@ -393,10 +393,23 @@ header
             display: block;
             line-height:30px;
         }
+
         .logo
         {
             width: 250px;
             height: 90px;
+        }
+
+        .iconsContainer
+        {
+            .cart
+            {
+                .cart_container
+                {
+                    width:100%;
+                    left: 0;
+                }
+            }
         }
     }
 }
