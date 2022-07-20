@@ -1,4 +1,4 @@
-const accessories = document.querySelector(".accessories");
+const games = document.querySelector(".games");
 
 const productsCatalog = window.products.map((products) => {
   return `
@@ -18,4 +18,4 @@ const productsCatalog = window.products.map((products) => {
     `;
 });
 
-accessories.innerHTML = productsCatalog.join("");
+games.innerHTML = productsCatalog.join("");

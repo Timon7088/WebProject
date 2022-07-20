@@ -4,14 +4,16 @@ let cartItems = [];
 
 const checkoutTemplate = `
 <tr>
-  <td>[productName]</td>
+  <td><image class="checkoutImg" src="[image]"></image></td>
+  <td class="name">[productName]</td>
   <td>1</td>
   <td>[price]</td>
+  <td><img class="" src="[key]"></td>
 </tr>
 `;
 
 function GenerateCheckoutItem(item) {
-  return checkoutTemplate.replace("[productName]", item.title).replace("[price]", item.price);
+  return checkoutTemplate.replace("[productName]", item.title).replace("[price]", item.price).replace("[image]", item.image).replace("[key]", item.key);
 }
 
 function loadCartFromStorage() {

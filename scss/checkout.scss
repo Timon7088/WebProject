@@ -420,17 +420,32 @@ main
         .item_titles
         {
             display: flex;
-            justify-content: flex-start;
+            justify-content: space-around;
             font-size: 18px;
             font-weight:700;
 
+            #products
+            {
+                .checkoutImg
+                {
+                    display: none;
+                }
+
+                thead
+                {
+                    th
+                    {
+                        font-size: 12px;
+                        padding: 0px 5px;
+                        text-decoration: underline;
+                    }
+                }
+            }
             
             .title_item{
                 display: inline-block;
                 width: 392px;
                 text-decoration: underline;
-
-
             }
 
             .qty_title
@@ -592,6 +607,28 @@ main
                     width: 220px;
                 }
             }
+
+            .item_titles
+            {
+                #products
+                {               
+                    .checkoutImg
+                    {
+                        display: block;
+                        width: 120px;
+                    }
+
+                    thead
+                    {
+                        th
+                        {
+                            font-size: 20px;
+                            padding: 0px 25px;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }    
         }
     }
 }
@@ -638,6 +675,27 @@ main
                     width: 400px;
                 }
             }
+
+            .item_titles
+            {
+                #products
+                {
+                    .checkoutImg
+                    {
+                        display: block;
+                        width: 160px;
+                    }
+ 
+                    thead
+                    {
+                        th
+                        {
+                            padding: 0px 50px;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }    
         }
     }
 }
@@ -660,6 +718,27 @@ main
                     width: 550px;
                 }
             }
+
+            .item_titles
+            {
+                #products
+                {
+                    .checkoutImg
+                    {
+                        display: block;
+                        width: 180px;
+                    }
+
+                    thead
+                    {
+                        th
+                        {
+                            padding: 0px 100px;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }    
         }
     }
 }

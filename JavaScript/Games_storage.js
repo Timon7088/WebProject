@@ -1,4 +1,4 @@
-let products = [
+window.products = [
     {
         id : "mhw",
         key : "../product pages/MHW.html",
@@ -53,25 +53,3 @@ let products = [
         original_price: ""
     }
 ]
-
-const games = document.querySelector(".games")
-
-const catalog = products.map(products => {
-    games.innerHTML += `
-
-            <div class="prod">
-                <img class="image" src="${products.image}">
-                <br><br>
-                <p class = "product_title">${products.title}</p>
-                <div class="prices">
-                    <span class="price">₪${products.price}</span>
-                    <span class="original_price">${products.original_price}</span>
-                </div>
-                <div class="btn_container">
-                    <button type="button" class="add_to_cart"> add to cart </button>
-                    <a href="${products.key}"><button type="button" class=buy_now> More info </button></a>
-                </div>
-                </div>
-
-    `
-    });
