@@ -46,8 +46,6 @@ function UI_updateCartTotal() {
   totalPrice.innerHTML = cartItems.filter((item) => item.inCart).reduce((sum, item) => (sum += item.price), 0);
 }
 
-
-
 function UI_update4UProducts() {
   const search_prods = document.querySelector("#search_prods");
   const search_prods_title = document.querySelector("#search_prods_title");
