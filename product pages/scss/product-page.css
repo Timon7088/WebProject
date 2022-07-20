@@ -97,7 +97,7 @@ header {
   padding-right: 8px;
 }
 .header .iconsContainer .cart .mini_cart {
-  display: block;
+  display: flex;
   position: relative;
   flex-direction: row-reverse;
   border: none;
@@ -137,7 +137,6 @@ header {
   left: 0;
   right: 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
-  border-radius: 8%;
   display: none;
 }
 .header .iconsContainer .cart .cart_container::-webkit-scrollbar {

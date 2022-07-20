@@ -130,7 +130,7 @@ header
 
             .mini_cart
             {
-                display: block;
+                display: flex;
                 position:relative;
                 flex-direction: row-reverse;
                 border:none;
@@ -178,7 +178,6 @@ header
                 left: 0;
                 right: 0;
                 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.60);
-                border-radius: 8%;
                 display:none;
 
 
