@@ -1,6 +1,6 @@
 'use strict'
 
-let products = [
+let product = [
     {
         title: "Nintendo Switch bunduru: 32GB Console Red and Blue",
         image: "imgs/nintendo switch bunduru.jpg",

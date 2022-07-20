@@ -19,14 +19,14 @@ function loadGame() {
         games.innerHTML = '';
         Object.values(cartItems).map(products => {
             games.innerHTML = `
-            <a class= "card" href="${product.key}">
+            <a class= "card" href="${products.key}">
                 <div class="prod">
-                    <img class="image" src="${product.image}">
+                    <img class="image" src="${products.image}">
                     <br><br>
-                    <p class = "product_title">${product.title}</p>
+                    <p class = "product_title">${products.title}</p>
                     <div class="prices">
-                        <span class="price">₪${product.price}</span>
-                        <span class="original_price">₪${product.original_price}</span>
+                        <span class="price">₪${products.price}</span>
+                        <span class="original_price">₪${products.original_price}</span>
                     </div>
                     <div class="btn_container">
                         <button class="add_to_cart"> add to cart </button>
@@ -34,7 +34,7 @@ function loadGame() {
                 </div>
             </a>
         `
-    })
+    });
     //games.innerHTML = html;
     
 }
