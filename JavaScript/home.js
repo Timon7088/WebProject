@@ -1,14 +1,13 @@
 let homeItems = [];
 
 const productTemplate = `
-                <div class="prod" href="#">
+                <div class="prod">
                     <img class="image" src="[image]">
                     <p class="product_title"> [title]</p>
                     <span class="price"> ₪[price] </span>
-                    <span class="original_price"> [orgPrice] </span>
+                    <span class="original_price">[original_Price] </span>
                     <div class="btn_container">
-                        <button class="buy_now"> Buy Now </button>
-                        <button data-key="[key]" class="add_to_cart"> add to cart </button>
+                      <button data-key="[key]" class="add_to_cart"> add to cart </button>
                     </div>
                 </div>
 `;
@@ -19,7 +18,7 @@ function Generate4UProduct(item) {
     .replace("[title]", item.title)
     .replace("[price]", item.price)
     .replace("[key]", item.key)
-    .replace("[orgPrice]", item.original_price !== "" ? `₪${item.original_price}` : "");
+    .replace("[original_Price]", item.original_price !== "" ? `₪${item.original_price}` : "");
 }
 
 function loadCartFromStorage() {
@@ -29,6 +28,26 @@ function loadCartFromStorage() {
   }
   UI_update4UProducts();
 }
+
+function addToCart(item) {
+  homeItems.push({ ...item, inCart: true, key: `item_${homeItems.length}` });
+  localStorage.setItem("cartProducts", JSON.stringify(homeItems));
+  UI_updateCart();
+}
+
+function UI_updateCartItems() {
+  const cartHTML = homeItems.filter((item) => item.inCart).map((item) => GenerateCartItem(item));
+  const cartList = document.querySelector(".cart_list");
+  cartList.innerHTML = cartHTML;
+
+}
+
+function UI_updateCartTotal() {
+  const totalPrice = document.querySelector("#cart_total_value");
+  totalPrice.innerHTML = cartItems.filter((item) => item.inCart).reduce((sum, item) => (sum += item.price), 0);
+}
+
+
 
 function UI_update4UProducts() {
   const search_prods = document.querySelector("#search_prods");
@@ -46,3 +65,8 @@ function UI_update4UProducts() {
 }
 
 loadCartFromStorage();
+
+function UI_updateCart() {
+  UI_updateCartTotal();
+  UI_updateCartItems();
+}
