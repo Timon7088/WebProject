@@ -97,7 +97,7 @@ header {
   padding-right: 8px;
 }
 .header .iconsContainer .cart .mini_cart {
-  display: none;
+  display: block;
   position: relative;
   flex-direction: row-reverse;
   border: none;
