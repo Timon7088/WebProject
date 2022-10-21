@@ -130,7 +130,7 @@ header
 
             .mini_cart
             {
-                display: none;
+                display: flex;
                 position:relative;
                 flex-direction: row-reverse;
                 border:none;
@@ -178,6 +178,7 @@ header
                 left: 0;
                 right: 0;
                 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.60);
+                border-radius: 8%;
                 display:none;
 
 
@@ -255,10 +256,6 @@ header
                     justify-content: flex-start;
                     background: $mainColor;
                     color: $textDark;
-                    position: relative;
-                    left:0px;
-                    right:0px;
-                    bottom: 0px;
 
                     h3
                     {
@@ -420,32 +417,17 @@ main
         .item_titles
         {
             display: flex;
-            justify-content: space-around;
+            justify-content: flex-start;
             font-size: 18px;
             font-weight:700;
 
-            #products
-            {
-                .checkoutImg
-                {
-                    display: none;
-                }
-
-                thead
-                {
-                    th
-                    {
-                        font-size: 10px;
-                        padding: 0px 5px;
-                        text-decoration: underline;
-                    }
-                }
-            }
             
             .title_item{
                 display: inline-block;
                 width: 392px;
                 text-decoration: underline;
+
+
             }
 
             .qty_title
@@ -538,11 +520,45 @@ main
         .consumer_info
         {
             text-align: left;
+
+            .error
+            {
+                position: relative;
+                font-size: 12px;
+                color: red;
+                bottom: 8px;
+            }
+
+            #phoneErr
+            {
+                left: 222px;
+                display: none;
+            }
+
+            #emailErr
+            {
+                left: 230px;
+                display: none;
+            }
         }
 
         .delivery_info
         {
             text-align: left;
+
+            textarea
+            {
+                resize: none;
+            }
+
+            #charLimit
+            {
+                position: relative;
+                bottom: 10px;
+                left: 250px;
+                font-size: 14px;
+                color: $mainColor;
+            }
         }
     }
 
@@ -558,7 +574,7 @@ main
             }
         }
         
-        .checkout
+        #checkout
         {              
             width:200px;
             height:66px;
@@ -607,28 +623,6 @@ main
                     width: 220px;
                 }
             }
-
-            .item_titles
-            {
-                #products
-                {               
-                    .checkoutImg
-                    {
-                        display: block;
-                        width: 120px;
-                    }
-
-                    thead
-                    {
-                        th
-                        {
-                            font-size: 20px;
-                            padding: 0px 25px;
-                            text-decoration: underline;
-                        }
-                    }
-                }
-            }    
         }
     }
 }
@@ -675,27 +669,6 @@ main
                     width: 400px;
                 }
             }
-
-            .item_titles
-            {
-                #products
-                {
-                    .checkoutImg
-                    {
-                        display: block;
-                        width: 160px;
-                    }
- 
-                    thead
-                    {
-                        th
-                        {
-                            padding: 0px 50px;
-                            text-decoration: underline;
-                        }
-                    }
-                }
-            }    
         }
     }
 }
@@ -718,27 +691,6 @@ main
                     width: 550px;
                 }
             }
-
-            .item_titles
-            {
-                #products
-                {
-                    .checkoutImg
-                    {
-                        display: block;
-                        width: 180px;
-                    }
-
-                    thead
-                    {
-                        th
-                        {
-                            padding: 0px 100px;
-                            text-decoration: underline;
-                        }
-                    }
-                }
-            }    
         }
     }
 }
